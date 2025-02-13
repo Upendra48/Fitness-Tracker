@@ -52,6 +52,9 @@ A mobile application designed to help users track their workouts, store exercise
 - Advanced analytics and reports.
 - Custom workout plans and recommendations.
 
+## Market Place (yet to be added)
+- It also offers as a market place to buy fitness and gym related items
+
 ## Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
 
