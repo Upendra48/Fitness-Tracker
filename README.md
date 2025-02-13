@@ -1,16 +1,60 @@
-# fitness_tracker
+# Workout Tracker App
 
-A new Flutter project.
+A mobile application designed to help users track their workouts, store exercise data, and visualize progress using a heat map calendar. The app uses the Hive database for local storage and features a clean and intuitive UI.
 
-## Getting Started
+## Features
+- **Workout & Exercise Model** 
+  - Defines the structure of workouts and exercises.
+  - Stores relevant workout details.
+  
+- **Workout Data Class** 
+  - Centralized data class for handling workout information.
+  - Facilitates data manipulation and retrieval.
 
-This project is a starting point for a Flutter application.
+- **Home Page UI** 
+  - Displays a summary of recent workouts.
+  - User-friendly interface for navigation.
 
-A few resources to get you started if this is your first Flutter project:
+- **Workout Page UI** 
+  - Allows users to log and view their workouts.
+  - Provides easy access to detailed workout information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Hive Database Integration** 
+  - Efficient local storage for workout data.
+  - Fast and lightweight database solution.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Heat Map Calendar** 
+  - Visual representation of workout frequency.
+  - Helps users track consistency over time.
+
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd workout-tracker-app
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the application:
+   ```sh
+   flutter run
+   ```
+
+## Technologies Used
+- Flutter
+- Dart
+- Hive (NoSQL Database)
+
+## Future Improvements
+- Cloud sync for workout data.
+- Advanced analytics and reports.
+- Custom workout plans and recommendations.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## License
+This project is licensed under the MIT License.
+
